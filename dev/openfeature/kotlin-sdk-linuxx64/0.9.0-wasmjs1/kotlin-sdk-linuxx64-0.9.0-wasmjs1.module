@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-sdk/0.9.0-wasmjs1/kotlin-sdk-0.9.0-wasmjs1.module",
+    "group": "dev.openfeature",
+    "module": "kotlin-sdk",
+    "version": "0.9.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-sdk-linuxX64Main-0.9.0-wasmjs1.klib",
+          "url": "kotlin-sdk-linuxx64-0.9.0-wasmjs1.klib",
+          "size": 162566,
+          "sha512": "674d8d045a18c90886f6e616b5f73a632e21f3a7a1a833cdba4c1ef92d2c47ef2d84af0814172516b2b0ca7c3b0313e9cf6d19cba4a003f94b13c29d44e3e772",
+          "sha256": "0fec6dbb770213494aaa6a3a658d15a4be90d239dcee17e58265a9a893730680",
+          "sha1": "715f4fc39d565f213456732ee8163c047f1fac8c",
+          "md5": "b4bec4db24944a2e665527ae3c035425"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-sdk-linuxx64-0.9.0-wasmjs1-sources.jar",
+          "url": "kotlin-sdk-linuxx64-0.9.0-wasmjs1-sources.jar",
+          "size": 39047,
+          "sha512": "aece14a3d12ce21ce5dfa29506d8bccbe11b13ededf58a2a21267b0f0210d7323c2fa503ebe7c8f0c491cf0190c0a57dc27b23a01735137914718d354b2a45d2",
+          "sha256": "0fdb7bbb23d1790e154108adbe7d7783c49c0986aa5176ee1483474e27ef5cae",
+          "sha1": "3a77bf3521c238562da6e9e7436200adbd50c151",
+          "md5": "90a604817456c0d32fe75657ff948851"
+        }
+      ]
+    }
+  ]
+}

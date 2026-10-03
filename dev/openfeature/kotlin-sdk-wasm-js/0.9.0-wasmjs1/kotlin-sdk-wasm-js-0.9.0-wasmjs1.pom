@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.openfeature</groupId>
+  <artifactId>kotlin-sdk-wasm-js</artifactId>
+  <version>0.9.0-wasmjs1</version>
+  <packaging>klib</packaging>
+  <name>OpenFeature Kotlin SDK</name>
+  <description>This is the Kotlin implementation of OpenFeature, a vendor-agnostic abstraction library for evaluating feature flags.</description>
+  <url>https://openfeature.dev</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>vahidlazio</id>
+      <name>Vahid Torkaman</name>
+      <email>vahidt@spotify.com</email>
+    </developer>
+    <developer>
+      <id>fabriziodemaria</id>
+      <name>Fabrizio Demaria</name>
+      <email>fdema@spotify.com</email>
+    </developer>
+    <developer>
+      <id>nicklasl</id>
+      <name>Nicklas Lundin</name>
+      <email>nicklasl@spotify.com</email>
+    </developer>
+    <developer>
+      <id>nickybondarenko</id>
+      <name>Nicky Bondarenko</name>
+      <email>nickyb@spotify.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/open-feature/kotlin-sdk.git</connection>
+    <developerConnection>scm:git:ssh://open-feature/kotlin-sdk.git</developerConnection>
+    <url>https://github.com/open-feature/kotlin-sdk</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-wasm-js</artifactId>
+      <version>2.4.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-core-wasm-js</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-collections-immutable-wasm-js</artifactId>
+      <version>0.4.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>atomicfu-wasm-js</artifactId>
+      <version>0.33.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

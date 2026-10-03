@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-sdk/0.9.0-wasmjs1/kotlin-sdk-0.9.0-wasmjs1.module",
+    "group": "dev.openfeature",
+    "module": "kotlin-sdk",
+    "version": "0.9.0-wasmjs1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-sdk-iosArm64Main-0.9.0-wasmjs1.klib",
+          "url": "kotlin-sdk-iosarm64-0.9.0-wasmjs1.klib",
+          "size": 162094,
+          "sha512": "ee7e827a3e1131f80155c764c8ed397c042507be0e8184a3e1095c1ef47d3fe2583d8c41a8da74ec8251f59d6df22bb424359f15fd71332a6fdf7ae27669fce9",
+          "sha256": "aeb6b4dc66d0e4820a58c5f367226a7f9d86ce9ca58c09662065165610b1d793",
+          "sha1": "e0fceab6d549983d95d74a7fa36dda970df0c2f0",
+          "md5": "cb4082d7c6d9ecbbc291f63b41c8ffc5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-sdk-iosarm64-0.9.0-wasmjs1-sources.jar",
+          "url": "kotlin-sdk-iosarm64-0.9.0-wasmjs1-sources.jar",
+          "size": 38657,
+          "sha512": "d8b068a609fd0a0a5c22d475ca29539c76fa7f7c7b2c3d14ce7a10f2d0e59919a989ebeae5b396fbd8b3e48f97e95d60e3c7b734f681fd39d188e683c64e7cc2",
+          "sha256": "f7ae98c2912c376f4aa2c281529c375a613342b62814014b63ff954ac7702a78",
+          "sha1": "2241ceb3f80f8a327dd69c56f4efb3f62a723d68",
+          "md5": "c10228ff59fbdbd4aa399aaafb39be50"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-collections-immutable",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-sdk-iosarm64-0.9.0-wasmjs1-metadata.jar",
+          "url": "kotlin-sdk-iosarm64-0.9.0-wasmjs1-metadata.jar",
+          "size": 2926,
+          "sha512": "5e12191f83dd1bcb178f9dc7945a7421a9b1c72cab98fd9a800cedb1e9369b1a7a79e1865c9d3fc316080c48bd5f0f778ec28f49f932533db6c3454c2406d4eb",
+          "sha256": "39132f4eed07c1f2cf2cbc8bb5aeb92342dd74d4e4e302020cf595a6616ab927",
+          "sha1": "6f73117641983d2ab98df07d4766bf171dee2666",
+          "md5": "73b15b98af0d31eef2b680bbd3a2f6d7"
+        }
+      ]
+    }
+  ]
+}
