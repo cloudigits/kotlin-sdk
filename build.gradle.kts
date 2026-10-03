@@ -13,8 +13,23 @@ plugins {
 allprojects {
     extra["groupId"] = "dev.openfeature"
 // x-release-please-start-version
-    ext["version"] = "0.9.0"
+    ext["version"] = "0.9.0-wasmjs1"
 // x-release-please-end
+}
+allprojects {
+    plugins.withId("maven-publish") {
+        extensions.configure<PublishingExtension> {
+            repositories {
+                maven(rootProject.layout.buildDirectory.dir("mvn-repo")) {
+                    name = "localRepo"
+                }
+            }
+        }
+    }
+
+    tasks.withType<Sign>().configureEach {
+        enabled = false
+    }
 }
 group = project.extra["groupId"].toString()
 version = project.extra["version"].toString()
